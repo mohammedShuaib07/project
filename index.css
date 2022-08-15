@@ -30,7 +30,7 @@ span{
 .navbar{
    
     border: 2px solid black;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     margin-right: 70px;
     border-radius: 50px;
@@ -93,11 +93,8 @@ li a{
 /* .contain1 .para */
 .para{
     height: 100%;
-    width: 50%;
-   
-}
-
-.para {
+    width: 50%;}
+ .para {
     padding: 25px;
 }
 .para h1{
@@ -110,7 +107,7 @@ li a{
     background-color: rgb(51, 184, 69);
     border: 2px solid black;
     border-radius: 6px;
-    margin-top: 45px;
+    margin-top: 25px;
     padding: 3px;
 }
 #btn a{
@@ -142,7 +139,7 @@ li a{
     padding: 10px;
 }
  
- #class li {
+#class li {
     padding-left: 20px;
     list-style-type: square;
  }
@@ -150,6 +147,7 @@ li a{
     margin-left: 1rem;
     border-left: 6px solid rgb(44, 131, 33);
     padding-left: 15px;
+    margin-top: -20px;
 }
 #color{
     border-top: 4px solid rgb(30, 131, 30);
@@ -281,7 +279,6 @@ li a{
 /* footer */
 .contain3{
     background-color: rgb(48, 40, 40);
-    
     height: 250px;
     border: 2px solid black;
 }
@@ -310,6 +307,12 @@ li a{
     margin-left: 95px;
 } 
 /* media query */
+@media screen and (max-width:1034px) {
+    .border {
+       
+        margin-top: -30px;
+    }
+}
 @media screen and (max-width:1018px) {
     .border {
          margin-top: -32px;
@@ -434,6 +437,9 @@ li a{
     }
 }
    @media screen and (max-width:776px) {
+    .navbar {
+        font-size: 15px;
+    }
     .para h1 {
         font-size: 25px;
     }
@@ -448,6 +454,9 @@ li a{
 }
 }
    @media screen and (max-width:762px) {
+    .navbar {
+        font-size: 16px;
+    }
    .navbar ul li a {
       padding: 22px;
 }
@@ -487,6 +496,9 @@ li a{
 
    }
    @media screen and (max-width:714px) {
+    .navbar {
+        font-size: 15px;
+    }
     .navbar ul li a {
         padding: 18px;
     }
@@ -524,6 +536,9 @@ li a{
     }
 }
    @media screen and (max-width:694px) {
+    .navbar {
+        font-size: 15px;
+    }
      .navbar ul li a {
         padding: 16px;
     }
@@ -546,21 +561,20 @@ li a{
         margin-top: -45px;
     }
     .contain2 .para1 .border {
-       
         margin-top: -47px;
     }
 }
     @media screen and (max-width:690px) {
+        .navbar {
+            font-size: 15px;
+        }
         .pic .para3 p {
-            
             font-size: 14px;
         }
         .pic1 .para4 p {
-           
-            font-size: 14px;
+           font-size: 14px;
         }
         .pic2 .para5 p {
-            
             font-size: 14px;
         }
 }
@@ -576,6 +590,9 @@ li a{
     }
    }
    @media screen and (max-width:675px) {
+    .navbar {
+        font-size: 15px;
+    }
     .navbar ul li a {
         padding: 14px;
     }
@@ -598,6 +615,9 @@ li a{
     }
    }
    @media screen and (max-width:670px) {
+    .navbar {
+        font-size: 15px;
+    }
     .contain2 .para2 {
         font-size: 15px;
     }
@@ -745,6 +765,7 @@ li a{
    }
 
    @media screen and (max-width:600px) {
+    
     .navbar ul li a {
         padding: 6px;
     }
@@ -773,6 +794,9 @@ li a{
     }
     }
    @media screen and (max-width:596px) {
+    .navbar {
+        font-size: 15px;
+    }
     .contain2 .para2 {
         font-size: 14px;
        
@@ -855,6 +879,9 @@ li a{
    }
  
     @media screen and (max-width:534px) {
+        .navbar {
+            font-size: 15px;
+        }
     #color3 {
         margin-top: 0px;
         margin-bottom: 11px;
@@ -931,6 +958,379 @@ li a{
     }
 }
 @media screen and (max-width:500px) {
+    .contain{
+        display: flex;
+        flex-direction:column;
+        height: 122px;
+    }
+    .navbar {
+        font-size: 19px;
+        margin-top: 03px;}
+        .navbar ul li a {
+            padding: 11px;
+        }
+        .contain1{
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+        }
+        .para {
+         
+            margin-left: 110px;
+        }
+        .main {
+            margin-left: 85px;
+        }
+        .contain2{
+            display: flex;
+            flex-direction: column;
+            height: 65rem;
+        }
+        
+.para1 {
+    margin-left: 75px;
+}
+.main1 {
+    
+    width: 104%;
+
+}
+.pic .para3 p {
+    font-size: 22px;
+}
+.pic1 .para4 p {
+    font-size: 22px;
+}
+.pic2 .para5 p {
+    font-size: 22px;
+}
+}
+@media screen and (max-width:490px) {
+    .pic .para3 p {
+        font-size: 21px;
+    }
+    .pic1 .para4 p {
+        font-size: 21px;
+    }
+    .pic2 .para5 p {
+        font-size: 21px;
+    }
+}
+@media screen and (max-width:480px) {
+    .navbar ul li a {
+        padding: 9px;
+    }
+    #color3 {
+        margin-top: 0px;
+        margin-bottom: 7px;
+    }
+    .pic .para3 p {
+        font-size: 21px;
+    }
+    .pic1 .para4 p {
+        font-size: 21px;
+    }
+    .pic2 .para5 p {
+        font-size: 21px;
+    }
+}
+@media screen and (max-width:465px) {
+    .navbar {
+        font-size: 18px;
+        
+    }
+    .pic .para3 p {
+        font-size: 20px;
+    }
+    .pic1 .para4 p {
+        font-size: 20px;
+    }
+    .pic2 .para5 p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:456px) {
+    .navbar ul li a {
+        padding: 6px;
+    }
+    .pic .para3 p {
+        font-size: 19px;
+    }
+    .pic1 .para4 p {
+        font-size: 19px;
+    }
+    .pic2 .para5 p {
+        font-size: 19px;
+    }
+    #color2 {
+        border-top: 4px solid rgb(37, 134, 37);
+        margin-top: 17px;
+    }
+}
+@media screen and (max-width:442px) {
+    .contain3 {
+        height: 400px;
+    }
+    .contain3 .footer{
+        margin-top: 46px;
+    }
+    #color2 {
+        border-top: 4px solid rgb(37, 134, 37);
+        margin-top: 29px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .navbar {
+        font-size: 20px;
+       
+    }
+    .main {
+        
+        height: 250px;
+    }
+    .para {
+        margin-left: 110px;
+        height: 250px;
+    }
+    .para h1 {
+        font-size: 14px;
+    }
+    .para p {
+        font-size: 11px;
+    }
+    .contain3 {
+        height: 376px;
+    }
+    .contain3 .footer {
+       
+        margin-top: 15px;
+       
+        font-size: 15px;
+    }
+    #color2 {
+        border-top: 4px solid rgb(37, 134, 37);
+        margin-top: 77px;
+    }
+}
+@media screen and (max-width:421px) {
+    .contain3 {
+        height: 370px;
+    }
+    .contain3 .footer {
+        margin-top: 20px;
+        
+    }
+    #color2 {
+        border-top: 4px solid rgb(37, 134, 37);
+        margin-top: 93px;
+    }
+    
+}
+@media screen and (max-width:415px) {
+
+    .navbar ul li a {
+        padding: 2px;
+    }
+    .contain2 .para2 {
+        font-size: 11.5px;
+        
+    }
+    #class {
+        font-size: 12.5px;
+    }
+    .contain2 .para1 .border {
+        font-size: 13px;
+    }
+    
+    .contain3 {
+        height: 362px;
+        
+    }
+    .contain3 .footer {
+        margin-top: 18px;
+        font-size: 12px;
+    }
+    #color2 {
+        border-top: 4px solid rgb(37, 134, 37);
+        margin-top: 02px;
+    }
+}
+@media screen and (max-width:409px) {
+    .main {
+        
+        height: 250px;
+    }
+    .para {
+        
+        height: 250px;
+    }
+    .para h1 {
+        font-size: 14px;
+    }
+    .para p {
+        font-size: 11px;
+    }
+    .color h1 {
+        font-size: 17px;
+    }
+    .contain3 {
+        height: 400px;
+    }
+    .contain3 .footer {
+        margin-top: 28px;
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width:402px) {
+    .navbar {
+        font-size: 18px;
+      
+    }
+    .main {
+        height: 227px;
+    }
+    .para h1 {
+        font-size: 13px;
+    }
+    .color h1 {
+        font-size: 16px;
+    }
+    .contain3 {
+        height: 400px;
+    }
+    #color2 {
+        border-top: 4px solid rgb(37, 134, 37);
+        margin-top: 30px;
+    }
+    .copyrights{
+        margin-left: -63px;
+    font-size: 13px;
+}
+    
+}
+@media screen and (max-width:389px) {
+    .navbar {
+        font-size: 15px;
+       
+    }
+    .navbar ul li a {
+        padding: 6px;
+    }
+    .main {
+       
+        height: 240px;
+    }
+    .para {
+       
+        height: 240px;
+    }
+    .para h1 {
+        font-size: 13px;
+    }
+    .para p {
+        font-size: 10px;
+    }
+    .color h1 {
+        font-size: 16px;
+    }
+    #color2 {
+        border-top: 4px solid rgb(37, 134, 37);
+        margin-top: 53px;
+    }
+    .contain3 {
+        height: 330px;
+    }
+    .contain3 .footer {
+        margin-top: 15px;
+        font-size: 10px;
+    }
+    .footer{
+        font-size: 13px;
+ 
+}
+    }
+
+@media screen and (max-width:374px) {
+    .navbar {
+        font-size: 14px;
+    }
+    .para h1 {
+        font-size: 12px;
+    }
+    .color h1 {
+        font-size: 15px;
+    }
+    #color2 {
+        border-top: 4px solid rgb(37, 134, 37);
+        margin-top: 74px;
+    }
+    .contain3 {
+        height: 335px;
+    }
+    .contain3 .footer {
+        margin-top: 14px;
+        font-size: 10px;
+    }
+    .copyrights{
+        font-size: 14px;
+        margin-left: -68px;
+    }
+}
+@media screen and (max-width:360px) {
+    .navbar {
+        font-size: 14px;
+    }
+    #color3 {
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+    .para {
+        margin-left: 85px;
+    }
+    .main {
+        margin-left: 73px;
+    }
+    .color h1 {
+        font-size: 15px;
+    }
+
+.main {
+   
+    height: 230px;
+}
+.para {
+    
+    height: 230px;
+}
+.para h1 {
+    font-size: 12px;
+}
+.para p {
+    font-size: 10px;
+}
+.contain3 {
+    height: 310px;
+}
+.contain3 .footer {
+    margin-top: 13px;
+    font-size: 10px;
+}
+.copyrights{
+    font-size: 14px;
+    margin-left: -68px;
+}
+}
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:500px) {
     .head {
         font-size: 14px;
     }
@@ -991,9 +1391,163 @@ li a{
     
   
 }
-@media screen and (max-width:410px) {
-    
+@media screen and (max-width:438px) {
+    .contain2 {
+        height: 599px;
+    }
+    .head1 h1 {
+        font-size: 18px;
+    }
+    .pic .para3 h {
+        
+        padding: 3px;
+    }
+    .pic1 .para4 h {
+       
+        padding: 3px;
+    }
+    .pic2 .para5 h {
+       
+        padding: 3px;
+    }
 }
+
+
+ @media screen and (max-width:440px) {
+    .contain2 .para2 {
+        font-size: 12px;
+        
+    }
+    .pic .para3 h {
+        font-size: 17px;
+       
+    }
+    .pic1 .para4 h {
+        font-size: 17px;
+       
+    }
+    .pic2 .para5 h {
+        font-size: 17px;
+       
+    }
+ }
+@media screen and (max-width:430px) {
+    .contain2 .para2 {
+        font-size: 12px;
+       
+    }
+}
+@media screen and (max-width:420px) {
+    .para h1 {
+        font-size: 15px;
+    }
+#class {
+    font-size: 12.5px;
+}
+    .contain2 .para1 .border {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:400px) {
+    .head {
+        font-size: 11px;
+    }
+    .navbar {
+        font-size: 10px;
+    }
+    .color h1 {
+        font-size: 17px;
+    }
+    .contain2 .para2 {
+        font-size: 11.5px;
+    }
+    .head1 h1 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:390px) {
+    .para h1 {
+        font-size: 13px;
+    }
+    .color h1 {
+        font-size: 16px;
+    }
+    .pic .para3 p {
+        font-size: 11px;
+    }
+    .pic1 .para4 p {
+        font-size: 11px;
+    }
+    .pic2 .para5 p {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:394px) {
+    .para h1 {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:380px) {
+    .para p {
+        font-size: 12px;
+    }
+    .contain2 .para1 .border {
+        font-size: 12.5px;
+    }
+    .pic .para3 h {
+        font-size: 15px;
+    }
+    .pic1 .para4 h {
+        font-size: 15px;
+    }
+    .pic2 .para5 h {
+        font-size: 15px;
+    }
+    .pic .para3 p {
+        font-size: 10px;
+    }
+    .pic1 .para4 p {
+        font-size: 10px;
+    }
+    .pic2 .para5 p {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:370px) {
+    .head {
+        font-size: 10px;
+    }
+    .navbar {
+        font-size: 9px;
+    }
+    .contain2 .para1 .border {
+        font-size: 11.5px;
+    }
+}
+@media screen and (max-width:364px) {
+    .contain3 {
+        height: 515px;
+    }
+}
+@media screen and (max-width:360px) {
+    .head1 h1 {
+        font-size: 12px;
+    }
+    .color h1 {
+        font-size: 15px;
+    }
+    .pic .para3 h {
+        font-size: 14px;
+    }
+    .pic1 .para4 h {
+        font-size: 14px;
+    }
+    .pic2 .para5 h {
+        font-size: 14px;
+    }
+} */
+   
+
 
 
 
