@@ -5,9 +5,10 @@
 }
 
 .container{
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
     
-    border-bottom: 5px;
+    /* border-bottom: 5px; */
+    
 }
 /* .contain */
 .contain{
@@ -16,7 +17,8 @@
 }
 
 h{
-        font-size:43px ;
+        font-size:25px ;
+        font-family: cursive;
 }
 .head{
     display: inline-block;
@@ -25,7 +27,8 @@ h{
     color: blanchedalmond;
 }
 span{
-    margin: 30px;
+    margin: 09px;
+    font-family: cursive;
 }
 .navbar{
    
@@ -50,7 +53,7 @@ li a{
     color:rgb(248, 248, 248);
 }
  a:hover{
-    /* background-color: black; */
+    
     color: darkkhaki;
 }
 #color3{
@@ -88,7 +91,7 @@ li a{
 }
 .main .image img{
     height: 100%;
-    width: 100%
+    width: 100%;
 }
 /* .contain1 .para */
 .para{
@@ -99,13 +102,17 @@ li a{
 }
 .para h1{
     color: aliceblue;
+    font-family: cursive;
+    font-size: 20px;
+  
 }
 .para p{
     color: burlywood;
+    font-family: monospace;
 }
 #btn{
     background-color: rgb(51, 184, 69);
-    border: 2px solid black;
+   
     border-radius: 6px;
     margin-top: 25px;
     padding: 3px;
@@ -125,6 +132,10 @@ li a{
 .color{
     margin-left: 1rem;
 }
+.color h1{
+    font-size: 19px;
+    font-family: cursive;
+}
 .para1{
     height: 100%;
     width: 60%;
@@ -136,23 +147,26 @@ li a{
     background-color:rgb(254, 253, 255) ;
 }
 .contain2 .para2{
-    padding: 10px;
+    padding: 17px;
+    font-family: monospace;
 }
  
 #class li {
     padding-left: 20px;
     list-style-type: square;
+    font-family: monospace;
  }
 .border{
     margin-left: 1rem;
     border-left: 6px solid rgb(44, 131, 33);
     padding-left: 15px;
-    margin-top: -20px;
+    margin-top: -40px;
+    font-family: monospace;
 }
 #color{
     border-top: 4px solid rgb(30, 131, 30);
-    width:8rem ;
-}
+    width:8rem ;}
+
 .image1{
     margin: 20px;
     
@@ -165,27 +179,29 @@ li a{
     padding-left: 7px;
     color:aliceblue;
     font-size: 13px;
+    font-size: 10px;
+    font-family: cursive;
 }
 .pic{
     display: flex;
     height: 30%;
-    background-color: rgb(236, 185, 185);
+    background-color: rgb(168, 166, 166);
 }
 .pic1{
     display: flex;
     height: 30%;
-    background-color: rgb(143, 156, 152);
+    background-color: rgb(104, 97, 97);
 }
 
 .pic2{
     display: flex;
     height: 30%;
-    background-color: brown;
+    background-color: rgb(168, 166, 166);
 }
 .pic .image2{
     height: 100%;
     width: 40%;
-    background-color: rgb(168, 166, 166);
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,19 +219,22 @@ li a{
 .pic .para3{
     height: 100%;
     width: 60%;
-    background-color: rgb(168, 166, 166);
+   
 }
 .pic .para3 h{
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px;
+    
+    font-family: cursive;
 }
 .pic .para3 p{
     padding: 10px;
+    font-family: monospace;
 }
 .pic1 .image3{
     height: 100%;
     width: 40%;
-    background-color: rgb(104, 97, 97);
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,7 +242,7 @@ li a{
 .pic1 .para4{
     height: 100%;
     width: 60%;
-    background-color: rgb(104, 97, 97);
+    
 }
 .pic1 .image3 .img2{
     border: 3px solid rgb(255, 248, 248);
@@ -235,16 +254,20 @@ li a{
     height: 100%;
 }
 .pic1 .para4 h{
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px;
+   
+    font-family: cursive;
+
 }
 .pic1 .para4 p{
     padding: 10px;
+    font-family: monospace;
 }
 .pic2 .image4{
     height: 100%;
     width: 40%;
-    background-color: rgb(168, 166, 166);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,7 +275,7 @@ li a{
 .pic2 .para5{
     height: 100%;
     width: 60%;
-    background-color: rgb(168, 166, 166);
+   
 }
 .pic2 .image4 .img3{
     border: 3px solid rgb(243, 237, 237);
@@ -264,11 +287,16 @@ li a{
     height: 100%;
 }
 .pic2 .para5 h{
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px;
+  
+    font-family: cursive;
+    
+   
 }
 .pic2 .para5 p{
     padding: 10px;
+    font-family: monospace;
 }
  #date{
     color: thistle;
@@ -291,42 +319,46 @@ li a{
     list-style: none;
 }
 #fothead{
-    font-size: 15px;
+   font-size: 15px;
     padding: 2px;
     padding-right: 45px;
-    
+    display: block;
     background-color: rgb(68, 59, 59);
     border-radius: 5px;
     color: rgb(252, 252, 252);
 }
 .fot1 li{
     margin-top: 8px;
+    margin-left: -26px;
 }
 .copyrights p{
     color: aliceblue;
     margin-left: 95px;
 } 
-/* media query */
-@media screen and (max-width:1034px) {
-    .border {
+/* media
+    .border { query */
+/* @media screen and (max-width:1034px) {
        
         margin-top: -30px;
-    }
-}
+    } */
+
 @media screen and (max-width:1018px) {
     .border {
-         margin-top: -32px;
+         margin-top: -35px;
     }
 }
-@media screen and (max-width:980px) {
+@media screen and (max-width:997px) {
     .pic .para3 p {
-        font-size: 15px;
+        font-size: 12px;
     }
     .pic1 .para4 p {
-        font-size: 15px;
+        font-size: 12px;
     }
     .pic2 .para5 p {
-       font-size: 15px;
+       font-size: 12px;
+    }
+    .border {
+        margin-top: -49px;
     }
 }
 @media screen and (max-width:972px) {
@@ -338,6 +370,9 @@ li a{
     }
     .pic2 .para5 p {
         padding: 6px;
+    }
+    .border {
+        margin-top: -49px;
     }
 }
 @media screen and (max-width:960px) {
@@ -360,7 +395,7 @@ li a{
 }
 @media screen and (max-width:906px) {
     .navbar {
-        margin-top: -60px;
+        margin-top: 13px;
     }
     .para h1 {
          font-size: 29px;
@@ -385,7 +420,7 @@ li a{
     }
 @media screen and (max-width:896px) {
     .navbar {
-        margin-top: -58px;
+        margin-top: 10px;
     }
     .border {
         margin-top: -41px;
@@ -413,7 +448,15 @@ li a{
         padding: 7px;
     }
 }
+@media screen and (max-width:842px) {
+    .navbar {
+        margin-top: -58px;
+    }
+}
    @media screen and (max-width:838px) {
+    .navbar {
+        margin-top: 14px;
+    }
     .para {
         padding: 0px;
     }
@@ -423,18 +466,25 @@ li a{
    .navbar{
     margin-right: 15px;
    }
+   .contain3 .footer{
+    font-size: 14px;
+   }
 }
 @media screen and (max-width:790px) {
     .navbar {
         
         font-size: 12px;
     }
+    .contain3 .footer{
+        font-size: 13px;
+       }
 }
 @media screen and (max-width:780px) {
     .navbar {
         
         font-size: 12px;
     }
+   
 }
    @media screen and (max-width:776px) {
     .navbar {
@@ -487,6 +537,9 @@ li a{
     }
 
 @media screen and (max-width:717px) {
+    .navbar {
+        font-size: 15px;
+    }
     .navbar ul li a {
         padding: 18px;
     }
@@ -506,13 +559,13 @@ li a{
       margin-top: -29px;
     }
     .pic .para3 {
-        font-size: 14px;
+        font-size: 12px;
     }
     .pic1 .para4 {
-        font-size: 14px;
+        font-size: 12px;
     }
     .pic2 .para5 {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
    @media screen and (max-width:700px) {
@@ -526,13 +579,13 @@ li a{
    }
    @media screen and (max-width:698px) {
     .pic .para3 p {
-     font-size: 14px;
+     font-size: 12px;
     }
     .pic1 .para4 p {
-      font-size: 14px;
+      font-size: 12px;
     }
     .pic2 .para5 p {
-     font-size: 14px;
+     font-size: 12px;
     }
 }
    @media screen and (max-width:694px) {
@@ -569,13 +622,13 @@ li a{
             font-size: 15px;
         }
         .pic .para3 p {
-            font-size: 14px;
+            font-size: 12px;
         }
         .pic1 .para4 p {
-           font-size: 14px;
+           font-size: 12px;
         }
         .pic2 .para5 p {
-            font-size: 14px;
+            font-size: 12px;
         }
 }
 
@@ -587,6 +640,9 @@ li a{
     .contain2 {
         height: 563px;
         
+    }
+    .para p {
+        font-size: 13px;
     }
    }
    @media screen and (max-width:675px) {
@@ -601,7 +657,7 @@ li a{
     }
    
     .para p{
-        font-size: 15px;
+        font-size: 12px;
     }
     .contain2 .para2 {
         font-size: 14px;
@@ -613,13 +669,16 @@ li a{
         margin-top: -27px;
         font-size: 14px;
     }
+    .contain3 .footer{
+        font-size: 12px;
+       }
    }
    @media screen and (max-width:670px) {
     .navbar {
         font-size: 15px;
     }
     .contain2 .para2 {
-        font-size: 15px;
+        font-size: 13px;
     }
     #class {
         font-size: 15px;
@@ -627,6 +686,9 @@ li a{
     }
     .contain2 .para1 .border {
         font-size: 15px;
+    }
+    .para p {
+        font-size: 12px;
     }
    }
    @media screen and (max-width:666px) {
@@ -637,6 +699,7 @@ li a{
     .para h1 {
         font-size: 24px;
     }
+    
     }
     @media screen and (max-width:655px) {
         #class {
@@ -653,7 +716,7 @@ li a{
    }
    @media screen and (max-width:642px) {
     .contain2 .para2 {
-        font-size: 14px;
+        font-size: 13px;
     }
     #class {
     font-size: 14px;
@@ -664,10 +727,13 @@ li a{
         font-size: 22px;
     }
     .contain2 .para2 {
-        font-size: 14px;
+        font-size: 13px;
     }
     #class {
         font-size: 14px;
+        }
+        .contain3 .footer {
+            font-size: 11px;
         }
    }
    @media screen and (max-width:630px) {
@@ -678,7 +744,7 @@ li a{
         font-size: 18px;
     }
     .contain2 .para2 {
-        font-size: 15px;
+        font-size: 13px;
     }
     #class {
         font-size: 15px;
@@ -704,7 +770,7 @@ li a{
    }
    @media screen and (max-width:614px) {
     .contain2 .para2 {
-        font-size: 14px;
+        font-size: 13px;
     }
   
 #class {
@@ -730,7 +796,7 @@ li a{
         margin-bottom: 10px;
     }
     .contain2 .para2 {
-        font-size: 15px;
+        font-size: 13px;
     }
     #class {
         font-size: 15px;
@@ -740,27 +806,27 @@ li a{
         font-size: 15px;
     }
     .pic .para3 p {
-        font-size: 13.5px;
+        font-size: 12px;
     }
     .pic1 .para4 p {
-        font-size: 13.5px;
+        font-size: 12px;
     }
     .pic2 .para5 p {
-        font-size: 13.5px;
+        font-size: 12px;
     }
    }
-   @media screen and (max-width:604px) {
+   @media screen and (max-width:606px) {
     .contain2 .para2 {
-        font-size: 14px;
+        font-size: 13px;
     }
     .pic .para3 p {
-        font-size: 13px;
+        font-size: 11px;
     }
     .pic1 .para4 p {
-        font-size: 13px;
+        font-size: 11px;
     }
     .pic2 .para5 p {
-        font-size: 13px;
+        font-size: 11px;
     }
    }
 
@@ -783,12 +849,17 @@ li a{
     }
    
      .pic .para3 p {
-    font-size: 13px;}
+    font-size: 10px;}
      .pic1 .para4 p {
-    font-size: 13px;}
+    font-size: 10px;}
 
     .pic2 .para5 p {
-    font-size: 13px;}
+    font-size: 10px;}
+    .contain3 {
+       
+        height: 308px;
+        
+    }
     .footer {
         flex-wrap: wrap;
     }
@@ -798,7 +869,7 @@ li a{
         font-size: 15px;
     }
     .contain2 .para2 {
-        font-size: 14px;
+        font-size: 13px;
        
     }
     #class {
@@ -811,7 +882,7 @@ li a{
    }
    @media screen and (max-width:578px) {
     .contain2 .para2 {
-        font-size: 14px;
+        font-size: 12px;
        
     }
     #class {
@@ -823,13 +894,13 @@ li a{
         font-size: 15px;
     }
     .pic .para3 p {
-        font-size: 12.5px;
+        font-size: 11px;
     }
     .pic1 .para4 p {
-        font-size: 12.5px;
+        font-size: 11px;
     }
     .pic2 .para5 p {
-        font-size: 12.5px;
+        font-size: 11px;
     }
    }
    @media screen and (max-width:574px) {
@@ -840,17 +911,17 @@ li a{
    @media screen and (max-width:560px) {
    
 .contain2 .para2 {
-    font-size: 14px;
+    font-size: 12px;
  
 }
 .pic .para3 p {
-    font-size: 12px;
+    font-size: 11px;
 }
 .pic1 .para4 p {
-    font-size: 12px;
+    font-size: 11px;
 }
 .pic2 .para5 p {
-    font-size: 12px;
+    font-size: 11px;
 }
    }
    @media screen and (max-width:543px) {
@@ -867,14 +938,14 @@ li a{
       
     }
     .contain2 .para2 {
-        font-size: 14px;
+        font-size: 12px;
     }
    }
    @media screen and (max-width:538px) {
     
 
 .contain2 .para2 {
-    font-size: 14px;
+    font-size: 12px;
 }
    }
  
@@ -949,7 +1020,7 @@ li a{
         margin-bottom: 15px;
     }
     .para p {
-        font-size: 13px;
+        font-size: 12px;
     }
     .contain3 {
         
@@ -996,27 +1067,44 @@ li a{
 
 }
 .pic .para3 p {
-    font-size: 22px;
+    font-size: 15px;
 }
 .pic1 .para4 p {
-    font-size: 22px;
+    font-size: 15px;
 }
 .pic2 .para5 p {
-    font-size: 22px;
+    font-size: 15px;
+}
+.contain3 {
+    height: 50%;
+}
+.contain3 .footer {
+    color: aliceblue;
+    display: contents;
+    margin-top: 10px;
+    padding: 5px;
+}
+#color2 {
+   
+    margin-top: 20px;
 }
 }
-@media screen and (max-width:490px) {
+@media screen and (max-width:491px) {
     .pic .para3 p {
-        font-size: 21px;
+        font-size: 15px;
     }
     .pic1 .para4 p {
-        font-size: 21px;
+        font-size: 15px;
     }
     .pic2 .para5 p {
-        font-size: 21px;
+        font-size: 15px;
+    }
+    #color2 {
+   
+        margin-top: 35px;
     }
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:474px) {
     .navbar ul li a {
         padding: 9px;
     }
@@ -1025,28 +1113,35 @@ li a{
         margin-bottom: 7px;
     }
     .pic .para3 p {
-        font-size: 21px;
+        font-size: 15px;
     }
     .pic1 .para4 p {
-        font-size: 21px;
+        font-size:15px;
     }
     .pic2 .para5 p {
-        font-size: 21px;
+        font-size: 15px;
     }
+    #color2 {
+        margin-top: 50px;
+    }
+
 }
-@media screen and (max-width:465px) {
+@media screen and (max-width:466px) {
     .navbar {
         font-size: 18px;
         
     }
     .pic .para3 p {
-        font-size: 20px;
+        font-size: 15px;
     }
     .pic1 .para4 p {
-        font-size: 20px;
+        font-size: 15px;
     }
     .pic2 .para5 p {
-        font-size: 20px;
+        font-size: 15px;
+    }
+    #color2 {
+        margin-top: 6rem;
     }
 }
 @media screen and (max-width:456px) {
@@ -1054,29 +1149,26 @@ li a{
         padding: 6px;
     }
     .pic .para3 p {
-        font-size: 19px;
+        font-size: 15px;
     }
     .pic1 .para4 p {
-        font-size: 19px;
+        font-size: 15px;
     }
     .pic2 .para5 p {
-        font-size: 19px;
+        font-size: 15px;
     }
     #color2 {
-        border-top: 4px solid rgb(37, 134, 37);
-        margin-top: 17px;
+        margin-top: 8rem;
     }
 }
 @media screen and (max-width:442px) {
-    .contain3 {
-        height: 400px;
-    }
+    
     .contain3 .footer{
         margin-top: 46px;
     }
     #color2 {
         border-top: 4px solid rgb(37, 134, 37);
-        margin-top: 29px;
+        margin-top: 9rem;
     }
 }
 
@@ -1099,9 +1191,7 @@ li a{
     .para p {
         font-size: 11px;
     }
-    .contain3 {
-        height: 376px;
-    }
+    
     .contain3 .footer {
        
         margin-top: 15px;
@@ -1110,20 +1200,18 @@ li a{
     }
     #color2 {
         border-top: 4px solid rgb(37, 134, 37);
-        margin-top: 77px;
+        margin-top: 10rem;
     }
 }
 @media screen and (max-width:421px) {
-    .contain3 {
-        height: 370px;
-    }
+  
     .contain3 .footer {
         margin-top: 20px;
         
     }
     #color2 {
         border-top: 4px solid rgb(37, 134, 37);
-        margin-top: 93px;
+        margin-top: 10rem;
     }
     
 }
@@ -1143,17 +1231,14 @@ li a{
         font-size: 13px;
     }
     
-    .contain3 {
-        height: 362px;
-        
-    }
+   
     .contain3 .footer {
         margin-top: 18px;
         font-size: 12px;
     }
     #color2 {
         border-top: 4px solid rgb(37, 134, 37);
-        margin-top: 02px;
+        margin-top: 6rem;
     }
 }
 @media screen and (max-width:409px) {
@@ -1174,9 +1259,7 @@ li a{
     .color h1 {
         font-size: 17px;
     }
-    .contain3 {
-        height: 400px;
-    }
+    
     .contain3 .footer {
         margin-top: 28px;
         font-size: 15px;
@@ -1197,12 +1280,10 @@ li a{
     .color h1 {
         font-size: 16px;
     }
-    .contain3 {
-        height: 400px;
-    }
+    
     #color2 {
         border-top: 4px solid rgb(37, 134, 37);
-        margin-top: 30px;
+        margin-top: 7rem;
     }
     .copyrights{
         margin-left: -63px;
@@ -1237,11 +1318,9 @@ li a{
     }
     #color2 {
         border-top: 4px solid rgb(37, 134, 37);
-        margin-top: 53px;
+        margin-top: 8rem;
     }
-    .contain3 {
-        height: 330px;
-    }
+    
     .contain3 .footer {
         margin-top: 15px;
         font-size: 10px;
@@ -1264,10 +1343,10 @@ li a{
     }
     #color2 {
         border-top: 4px solid rgb(37, 134, 37);
-        margin-top: 74px;
+        margin-top: 8rem;
     }
     .contain3 {
-        height: 335px;
+        height: px;
     }
     .contain3 .footer {
         margin-top: 14px;
@@ -1308,14 +1387,15 @@ li a{
     font-size: 12px;
 }
 .para p {
-    font-size: 10px;
+    font-size: 9px;
 }
-.contain3 {
-    height: 310px;
-}
+
 .contain3 .footer {
     margin-top: 13px;
     font-size: 10px;
+}
+#color2 {
+    margin-top: 9rem;
 }
 .copyrights{
     font-size: 14px;
